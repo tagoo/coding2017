@@ -7,7 +7,7 @@ public class ArrayList implements List {
 	private Object[] elementData = new Object[100];
 	
 	public void add(Object o){
-		if(size<elementData.length){}
+		
 	}
 	public void add(int index, Object o){
 		
