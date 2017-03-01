@@ -28,5 +28,4 @@ public class BinaryTreeNode {
 	public BinaryTreeNode insert(Object o){
 		return  null;
 	}
-	
 }

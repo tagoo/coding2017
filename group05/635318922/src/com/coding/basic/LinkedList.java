@@ -3,9 +3,20 @@ package com.coding.basic;
 public class LinkedList implements List {
 	
 	private Node head;
+	public LinkedList(){
+		
+	}
 	
+	public void lastNode(Node node,Object o){
+		if(node!=null){
+			lastNode(node.next,o);
+		}else{
+			node = new Node();
+			node.data=o;
+		}
+	}
 	public void add(Object o){
-		if(true){}
+			lastNode(head,o);
 	}
 	public void add(int index , Object o){
 		
